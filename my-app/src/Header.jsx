@@ -1,14 +1,16 @@
 import React from "react"
-
+import { AppBar, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 function Header() {
     return (
-        <header>
-            <img 
-                src="https://t4.ftcdn.net/jpg/02/76/08/07/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg" 
-                alt="Laf"
-            />
-            <p>Meme!😃 Maker</p>
-        </header>
+        // <AppBar>
+        <Box
+        >
+            <Typography>Tanners Totally Free Meme Maker </Typography>
+            <Typography>😏😳💁😎😎👀😄😎😁😇</Typography>
+           
+           
+        </Box>
     )
 }
 
