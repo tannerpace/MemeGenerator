@@ -1,7 +1,10 @@
 .header {
   height: 10vh;
+  width: 70%;
+  margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   background: #6441a5; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -15,18 +18,31 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* .memeWrapper {
+  background: #6441a5;
+  background: -webkit-linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); 
+  background: linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  );
+} */
+
 .header > p {
   font-family: VT323, monospace;
   color: whitesmoke;
   font-size: 1rem;
-  margin-left: 60px;
 }
-.header {
+/* .header {
   display: flex;
   justify-content: center;
   width: 100%;
   margin: auto;
-}
+} */
 
 .meme {
   display: flex;
@@ -73,7 +89,7 @@
   width: 50%;
   margin: 5px auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .meme-form > input {
