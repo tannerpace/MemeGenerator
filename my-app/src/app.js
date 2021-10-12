@@ -1,11 +1,12 @@
 import React from "react"
 import Header from "./Header"
 import MemeGenerator from "./MemeGenerator"
+import Animations from './Animations'
 
 function App() {
   return (
     <div>
-      <Header />
+      <Animations />
       <MemeGenerator />
     </div>
   )

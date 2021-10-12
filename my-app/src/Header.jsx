@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 function Header() {
     return (
 
-        <Box
+        <Box className="header"
         >
             <Typography>Tanners Totally Free Meme Maker </Typography>
             <Typography>😏😳💁😎😎👀😄😎😁😇</Typography>

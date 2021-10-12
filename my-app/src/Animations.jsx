@@ -10,7 +10,7 @@ export default function Animations(props) {
             <Skeleton animation="wave" />
             <Skeleton animation={false} />
             <Header />
-            <MemeGenerator />
+
         </Box>
     );
 }
