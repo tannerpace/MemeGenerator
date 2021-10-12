@@ -1,31 +1,14 @@
-import React from "react";
-import Header from "./Header";
-import MemeGenerator from "./MemeGenerator";
-import { Box, Container } from "@mui/material";
-import { CssBaseline } from "@mui/material";
-import Animations from "./Animations";
-import { Paper } from "@mui/material";
-
+import React from "react"
+import Header from "./Header"
+import MemeGenerator from "./MemeGenerator"
 
 function App() {
   return (
-    <CssBaseline>
-      <Box
-        sx={{
-          display: "flex",
-          flexWrap: "wrap",
-          "& > :not(style)": {
-            m: 1,
-          },
-        }}
-      >
-        {" "}
-        <Paper>
-          <Animations></Animations>
-        </Paper>
-      </Box>
-    </CssBaseline>
-  );
+    <div>
+      <Header />
+      <MemeGenerator />
+    </div>
+  )
 }
 
-export default App;
+export default App
