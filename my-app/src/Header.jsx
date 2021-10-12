@@ -6,8 +6,8 @@ function Header() {
 
         <Box className="header"
         >
-            <Typography>Tanners Totally Free Meme Maker </Typography>
-            <Typography>😏😳💁😎😎👀😄😎😁😇</Typography>
+            <Typography></Typography>
+            <Typography>😏😳💁Tanners Totally Free Meme Maker 👀😄😇</Typography>
 
 
         </Box>

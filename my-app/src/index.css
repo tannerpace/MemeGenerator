@@ -1,4 +1,4 @@
-header {
+.header {
   height: 10vh;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ header {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-header > p {
+.header > p {
   font-family: VT323, monospace;
   color: whitesmoke;
   font-size: 1rem;
@@ -32,8 +32,7 @@ header > p {
   display: flex;
   position: relative;
   width: auto;
-  height: 60vh;
-
+  height: 67vh;
   justify-content: center;
 }
 
